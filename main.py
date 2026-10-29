@@ -1,5 +1,4 @@
-number = int(input("Enter a number: "))
-if number % 2 == 0:
-    print(f"Число {number} четное")
-else:
-    print(f"Число {number} нечетное")
+# считываем целое число с клавиатуры
+n = int(input("Введите число: "))
+# выводим число в двоичной системе счисления
+print(bin(n)[2:])
